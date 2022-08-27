@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/rocket-solid.svg"
+      type="image/x-icon"
+    />
+    <title>RocketBlog</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="imgLogo" src="./images/logo.svg" alt="Imagem do logo" />
+        <div id="optionsMenu">
+          <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Categorias</li>
+            <li>Contato</li>
+          </ul>
+
+          <label class="searchLabel" for="search">
+            <input
+              type="text"
+              placeholder="Buscar"
+              id="search"
+              autocomplete="off"
+            />
+            <img
+              class="lupaIcon"
+              src="./images/search.svg"
+              alt="icone de uma lupa"
+            />
+          </label>
+        </div>
+
+        <div class="menuBtn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+      <article class="headerArticle">
+        <section class="textSection">
+          <h2>
+            Veja o guia definitivo para conquistar seus objetivos como DEV em
+            2022
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique placerat hac.
+          </p>
+          <a href="#" class="link">
+            <span>Veja mais</span
+            ><img class="iconSvg" src="./images/arrow-right.svg" />
+          </a>
+        </section>
+
+        <div class="divImg">
+          <img class="imgTextSection" src="./images/featured-image.png" />
+        </div>
+      </article>
+    </header>
+
+    <main>
+      <section id="materiaPrincipal">
+        <div class="divMateriaPrincipal">
+          <img src="./images/post-1.png" alt="" />
+          <span>Janeiro 04, 2022</span>
+          <h3>Começando no ReactJS em 2022</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed
+            volutpat aenean sit vitae, sed tristique. Sed volutpat aenean.
+          </p>
+        </div>
+      </section>
+
+      <article class="materiaLateral">
+        <div class="sideMateria">
+          <span>Janeiro 04, 2022</span>
+          <h3>
+            Conheça as principais técnicas para conseguir uma vaga internacional
+            em programação
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique..
+          </p>
+        </div>
+        <div class="divMateriaLateral">
+          <span>04 janeiro, 2022</span>
+          <h3>Veja a evolução do Front-end na prática</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque.
+          </p>
+        </div>
+      </article>
+
+      <article class="footer">
+        <div id="one" class="divsFooter">
+          <img src="./images/post-2.png" alt="" />
+          <span>04 janeiro, 2022</span>
+          <h3>10 Dicas para conseguir a vaga desejada</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </div>
+        <div id="two" class="divsFooter">
+          <img src="./images/post-3.png" alt="" />
+          <span>04 janeiro, 2022</span>
+          <h3>Deixe seu código mais semântico com essas dicas</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </div>
+
+        <div id="three" class="divsFooter">
+          <img src="./images/post-4.png" alt="" />
+          <span>04 janeiro, 2022</span>
+          <h3>Use essas dicas nas suas aplicações mobile</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      src="https://kit.fontawesome.com/a8bc87464c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
