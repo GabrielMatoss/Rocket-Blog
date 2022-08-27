@@ -6,5 +6,5 @@
 * HTML, CSS e JS
 
 ### Observação: 
-* Em certas partes do site, me inspirei no projeto da NLW-Return-Origin desenvolvido junto com o queridissimo professor @maykbrito. 
+* Em certas partes do site, me inspirei no projeto da NLW-Return-Origin desenvolvido junto com o professor @maykbrito. 
 * Link para visualizar o site: https://gabrielmatoss.github.io/Rocket-Blog/
